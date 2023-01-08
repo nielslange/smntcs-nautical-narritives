@@ -1,0 +1,93 @@
+/*
+Theme Name: SMNTCS Nautical Narratives
+Theme URI: https://github.com/nielslange/smntcs-nautical-narratives
+Author: Niels Lange
+Author URI: https://ielslange.com
+Description: A theme for the Nautical Narratives website.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: smntcs-nautical-narratives
+*/
+
+:root {
+  /* Polar Night */
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+
+  /* Snow Storm */
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+
+  /* Frost */
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+
+  /* Aurora */
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+
+body {
+  background-color: var(--nord0);
+  color: var(--nord4);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+a {
+  color: var(--nord4);
+  font-weight: 700;
+}
+
+section {
+  margin: 20px 0;
+}
+
+#site-header {
+  display: flex;
+}
+
+#header-title {
+  width: 50%;
+}
+
+#header-title h1,
+#header-title h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#header-menu {
+  width: 50%;
+  text-align: right;
+}
+
+#header-menu #menu-primary-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header-menu #menu-primary-menu .menu-item {
+  text-align: center;
+  margin-left: 10px;
+}
